@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторна робота № 2</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        display: flex;
+      }
+
+      td {
+        border: 1px solid black;
+        padding: 25px;
+        text-align: center;
+        font-size: 25px;
+      }
+
+      tr:nth-child(1) {
+        background-color: #668f8f;
+        color: #060b12;
+      }
+
+      tr:nth-child(2) {
+        background-color: #f5f566;
+        color: #081326;
+      }
+
+      tr:nth-child(1):hover {
+        background-color: #f5f566;
+        color: #081326;
+      }
+
+      tr:nth-child(2):hover {
+        background-color: #668f8f;
+        color: #060b12;
+      }
+
+      .table-container {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr class="row1">
+        <td rowspan="2">ПІБ</td>
+        <td colspan="2">Третякова</td>
+        <td>Ельвіра</td>
+        <td>Іванівна</td>
+      </tr>
+      <tr class="row2">
+        <td rowspan="2">ІА-22</td>
+        <td rowspan="2">ЛР - 2</td>
+        <td rowspan="3">Варіант - 6</td>
+        <td></td>
+      </tr>
+      <tr class="row3">
+        <td></td>
+        <td rowspan="2"></td>
+      </tr>
+      <tr class="row4">
+        <td colspan="3"></td>
+      </tr>
+    </table>
+  </body>
+</html>
